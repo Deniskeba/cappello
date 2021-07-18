@@ -1,0 +1,62 @@
+.modal 
+    display: none
+    position: fixed
+    top: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(0, 0, 0, 0.5)
+    &_active
+        display: block
+    &_dialog
+        max-width: 380px
+        margin: 120px auto
+    &_content
+        background-color: #ffff
+        max-height: 320px
+        padding: 20px 20px 20px 20px
+        border-radius: 10px
+    &_close
+        float: right
+        margin: -17px -50px
+        font-size: 41px
+        line-height: 21px
+        color: white
+        cursor: pointer
+    &_subtitle
+        text-align: center
+        font-size: 19px
+        font-weight: 700
+        color:#2F2C2C
+    &_descr
+        text-align: center
+        font-size: 16px
+        font-weight: 500
+        color:#2F2C2C
+        line-height: 2
+    &-form
+        align-items: center
+        margin-top: 20px
+        display: flex
+        flex-direction: column
+        width: 300px
+        margin-left: 21px
+        input
+            height: 50px
+            border-radius: 5px
+            background-color: #ffffff
+            border: none
+            margin-bottom: 15px
+            padding: 0 20px
+            color: #4b4b4b
+            font-size: 14px
+            font-weight: 600
+            box-shadow: 3px 3px 20px #555555
+            outline: none
+    &_button
+        height: 30px
+        width: 185px
+        background-color: #2F2C2C
+        color: white
+        font-size: 15px
+        border-radius: 5px
+        font-weight: 500
